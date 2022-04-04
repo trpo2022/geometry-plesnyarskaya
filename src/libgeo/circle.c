@@ -65,3 +65,5 @@ float circle_perimetr(float digit_circle[])
     float perimetr = (rad + rad) * M_PI;
     return perimetr;
 }
+
+

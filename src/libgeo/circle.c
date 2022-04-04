@@ -44,8 +44,11 @@ void circle(char str[])
     printf("AREA CIRCLE: %f\nPERIMETR CIRCLE: %f\n",
            circle_area(digit_circle),
            circle_perimetr(digit_circle));
-    if (cross(all)) printf("\n\nFIGURES DON'T INTERSECT\n");
-    else{printf("\n\nFIGURES INTERSECT\n");}
+    if (cross(all))
+        printf("\n\nFIGURES DON'T INTERSECT\n");
+    else {
+        printf("\n\nFIGURES INTERSECT\n");
+    }
 }
 
 float circle_area(float digit_circle[])
@@ -58,7 +61,6 @@ float circle_area(float digit_circle[])
 
 float circle_perimetr(float digit_circle[])
 {
-    
     float rad = digit_circle[2];
     float perimetr = (rad + rad) * M_PI;
     return perimetr;

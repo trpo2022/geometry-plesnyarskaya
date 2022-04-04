@@ -37,7 +37,6 @@ CTEST(geometry_suite, simple_area_circle)
     ASSERT_DBL_NEAR(exp, res);
 }
 
-
 CTEST(geometry_suite, simple_area_perimetr)
 {
     const float exp = 14.765485471872028220774423901414;

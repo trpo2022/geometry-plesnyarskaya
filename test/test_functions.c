@@ -47,11 +47,11 @@ CTEST(geometry_suite, simple_area_perimetr)
     ASSERT_DBL_NEAR(exp, res);
 }
 
-
 CTEST(geometry_suite, simple_treug_perimetr)
 {
     const float exp = 14.595396;
-    for_treug_area[0] = 3, for_treug_area[1] = 2, for_treug_area[2] = 5, for_treug_area[3] = 1, for_treug_area[4] = 6, for_treug_area[5] = 3.4;
+    for_treug_area[0] = 3, for_treug_area[1] = 2, for_treug_area[2] = 5,
+    for_treug_area[3] = 1, for_treug_area[4] = 6, for_treug_area[5] = 3.4;
     float res = treug_per(for_treug_area);
     ASSERT_DBL_NEAR(exp, res);
 }
